@@ -25,3 +25,4 @@ Scale Invarient Feature Transform (SIFT) is very robust feature detection algori
 1. [Optical Flow](https://nanonets.com/blog/optical-flow/)
 2. [Scaramuzza Part I](http://rpg.ifi.uzh.ch/docs/VO_Part_I_Scaramuzza.pdf)
 3. [Scaramuzza Part II](https://www.zora.uzh.ch/id/eprint/71030/1/Fraundorfer_Scaramuzza_Visual_odometry.pdf)
+4. [Visual Odometry](http://www.cs.toronto.edu/~urtasun/courses/CSC2541/03_odometry.pdf)
