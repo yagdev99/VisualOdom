@@ -9,7 +9,12 @@ The method of determining motion of a monocular camera using sequential images i
 3. Finding the relative rotation and translation from previous image to current image.
 4. Finding the rotation and translation from the initial image.
 
-Scale Invarient Feature Transform (SIFT) is very robust feature detection algorithm but it takes very long to to detect the features in an image. Additionally it taking time to match it with the features in the previous image. In order to optimize this we use Optical Flow Feature Tracking.  
+Scale Invarient Feature Transform (SIFT) is very robust feature detection algorithm but it takes very long to to detect the features in an image. Additionally it taking time to match it with the features in the previous image. In order to optimize this we use Optical Flow Feature Tracking. Now the steps become
+1. Feature Detection: There are many different feature detection algorithms, most widely used ones include: SIFT, ORB, FAST, BRIEF and etc. The one being used in [optical_2d.py](https://github.com/yagdev99/VisualOdom/blob/main/optical_2d.py) is SIFT.
+2. Track Features from prev image to current image. If the number of features of previous image tracked to current image are less than a thresold then detect new features using SIFT. 
+3. Finding the relative rotation and translation from previous image to current image.
+4. Finding the rotation and translation from the initial image.
+
 
 
 ## Result
