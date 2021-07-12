@@ -175,7 +175,7 @@ def start_tracking(path, scale_xy):
 
                 plt.show()
                 
-                np.save('traj',trajectory)
+                # np.save('traj',trajectory)
 
 if __name__ == "__main__":
     
